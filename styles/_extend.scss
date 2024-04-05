@@ -1,0 +1,8 @@
+
+.button1 {
+    @extend %buttonStyle !optional;
+    background: yellow;
+}
+.button2 {
+    @extend %buttonStyle !optional;
+}

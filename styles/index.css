@@ -1,3 +1,7 @@
+.button1 {
+  background: yellow;
+}
+
 header {
   background-color: red;
   height: 500px;
@@ -13,10 +17,6 @@ section button {
   padding: 5px 1px;
   color: white;
   background: green;
-}
-
-.button1 {
-  background: purple;
 }
 
 footer {

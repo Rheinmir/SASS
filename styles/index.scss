@@ -1,5 +1,6 @@
 @import 'variables';//can import other scss file
 @import 'mixin';//can import other scss file
+@import 'extend';//can import other scss file
 @import 'header';//can import other scss file
 
 section button {
@@ -7,13 +8,6 @@ section button {
     background: green;
 }
 
-.button1 {
-    @extend %buttonStyle !optional;
-    background: purple;
-}
-.button2 {
-    @extend %buttonStyle !optional;
-}
 
 footer {
     height: 200px;
