@@ -1,0 +1,28 @@
+@import 'variables';//can import other scss file
+@import 'mixin';//can import other scss file
+@import 'extend';//can import other scss file
+@import 'header';//can import other scss file
+
+section button {
+    @include button-style();
+    background: green;
+}
+
+footer {
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+// Styles footer with a styled button and a 20px font-size paragraph.
+footer {
+    button{
+        @include button-style();
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+

@@ -1,0 +1,8 @@
+// Defines a Sass mixin named "buttonStyle" to style buttons with a specific background, border, padding, and color. Mixin can use like function in other language
+
+@mixin button-style {
+    background: $main-color;
+    border: 0;
+    padding: 5px 1-0px;
+    color: white;
+}

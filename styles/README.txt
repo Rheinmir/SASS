@@ -1,0 +1,1 @@
+I create this file for open folder in code editor only
