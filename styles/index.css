@@ -15,6 +15,10 @@ section button {
   background: green;
 }
 
+.button1 {
+  background: purple;
+}
+
 footer {
   height: 200px;
   display: flex;
